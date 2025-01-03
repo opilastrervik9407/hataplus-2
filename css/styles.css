@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fronts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('../fronts/RobotoSlab-Bold.woff') format('woff'),
+        url('../fronts/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fronts/RobotoSlab-Regular.woff2') format('woff2'),
+        url('../fronts/RobotoSlab-Regular.woff') format('woff'),
+        url('../fronts/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fronts/RobotoSlab-Medium.woff2') format('woff2'),
+        url('../fronts/RobotoSlab-Medium.woff') format('woff'),
+        url('../fronts/RobotoSlab-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+hr {
+    border-top: 1px solid #e4e4e4;
+    margin-bottom: 33px;
+    margin-top: 31px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-menu {
+    font-family: "Arial";
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 1.7em;
+    transition: all 0.5s ease;
+}
+
+.nav-menu :hover {
+    color: #fd8300;
+    transition: all 0.5s ease;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-between {
+    justify-content: space-between;
+    display: flex;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 16px 0;
+    background-color: #1f1f56;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+header {
+    padding-top: 55px;
+}
+
+.nav-menu {
+    column-gap: 25px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: #b1b1d2;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.faforits-soicial {
+    background-color: #1f1f56;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.faforits-soicial a {
+    background-color: #1f1f56;
+    display: block;
+    background: url(../img/sprite.png) no-repeat;
+    transition: all 0.25s ease;
+}
+
+.number1 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+}
+.contactphone2, .mail_contacts {
+    position: relative;
+}
+.contactphone2 {
+    text-decoration: underline;
+}
+
+.numberito {
+    position: relative;
+    font-size: 16px;
+    text-align: right;
+}
+
+.numberito::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 51px;
+    background-color: #e4e4ec;
+    right: -30px;
+}
+a.fb {
+    background-position: -1px -2px;
+    width: 11px;
+    height: 19px;
+}
+
+a.tw {
+    background-position: -14px -2px;
+    height: 16px;
+    width: 19px;
+}
+
+
+a.in {
+    background-position: -35px -2px;
+    width: 20px;
+    height: 20px;
+}
+
+a.fb:hover {
+    background-position: -2px -23px;
+}
+
+a.tw:hover {
+    background-position: -15px -23px;
+}
+
+a.in:hover {
+    background-position: -36px -23px;
+}
+
+.logo-contacts {
+    align-items: center;
+    padding: 26px 0;
+}
+
+.hataplus-email {
+    text-decoration: underline;
+}
+
+.klick {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+    padding: 12px 19px;
+    transition: all 0.5s ease;
+}
+
+.klick:hover {
+    background-color: #fd8300;
+    color: #ffffff;
+}
+
+
+.numberito a, .klick {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.klick {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+    padding: 12px 19px;
+    transition: all 0.5s ease;}
